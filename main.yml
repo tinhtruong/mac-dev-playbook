@@ -30,6 +30,9 @@
     - import_tasks: tasks/osx.yml
       tags: ['osx']
 
+    - import_tasks: tasks/dotfiles.yml
+      tags: ['dotfiles']
+
     - import_tasks: tasks/sublime-text.yml
       when: configure_sublime
       tags: ['sublime-text']

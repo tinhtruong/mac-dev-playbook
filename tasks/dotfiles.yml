@@ -5,11 +5,17 @@
     state: directory
     mode: '0755'
 
+- name: Check for dotfiles repo exist (for development)
+  stat:
+    path: ~/Development/dotfiles
+  register: p
+
 - name: Clone dotfiles repo
   git:
     repo: https://github.com/tinhtruong/dotfiles.git
     dest: ~/Development/dotfiles
     accept_hostkey: yes
+  when: not p.stat.exists
   become: false
 
 - name: Link dotfiles to user home using GNU stow
