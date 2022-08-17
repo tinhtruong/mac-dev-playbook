@@ -33,6 +33,9 @@
     - import_tasks: tasks/dotfiles.yml
       tags: ['dotfiles']
 
+    - import_tasks: tasks/fish-shell.yml
+      tags: ['fish-shell']
+
     - import_tasks: tasks/sublime-text.yml
       when: configure_sublime
       tags: ['sublime-text']
