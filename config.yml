@@ -32,6 +32,7 @@ homebrew_installed_packages:
   - bat
   - cheat
   - exa
+  - fd
   - fish
   - fzf
   - git
