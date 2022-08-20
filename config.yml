@@ -1,0 +1,104 @@
+---
+downloads: ~/.ansible-downloads/
+
+# Set to 'true' to configure the Dock via dockutil.
+configure_dock: true
+dockitems_remove: []
+# - Launchpad
+# - TV
+# - Podcasts
+# - 'App Store'
+dockitems_persist: 
+ - name: "Thunderbird"
+   path: "/Applications/Thunderbird.app/"
+   pos: 3
+ - name: "Slack"
+   path: "/Applications/Slack.app/"
+   pos: 4
+
+configure_sudoers: false
+sudoers_custom_config: ''
+# Example:
+# sudsers_custom_config: |
+#   # Allow users in admin group to use sudo with no password.
+#   %admin ALL=(ALL) NOPASSWD: ALL
+
+homebrew_taps:
+  - homebrew/core
+  - homebrew/cask
+  - homebrew/cask-fonts
+
+homebrew_installed_packages:
+  - bat
+  - cheat
+  - exa
+  - fish
+  - fzf
+  - git
+  - go
+  - ghostscript
+  - httpie
+  - micro
+  - ncdu
+  - stow
+  - starship
+  - tree
+  - watchman
+  - wget
+
+homebrew_cask_appdir: /Applications
+homebrew_cask_apps:
+  - adobe-acrobat-reader
+  - cryptomator
+  - cheatsheet
+  - docker
+  - dropbox
+  - drawio
+  - firefox
+  - font-droid-sans-mono-nerd-font
+  - font-jetbrains-mono-nerd-font
+  - font-inconsolata-nerd-font
+  - font-ubuntu-mono-nerd-font
+  - font-roboto-mono-nerd-font
+  - font-victor-mono-nerd-font
+  - google-chrome
+  - google-cloud-sdk
+  - insomnia
+  - iterm2
+  - jetbrains-toolbox
+  - joplin
+  - keepassxc
+  - kitty
+  - libreoffice
+  - pdfsam-basic
+  - signal
+  - slack
+  - sublime-text
+  - the-unarchiver
+  - thunderbird
+#  - virtualbox cannot be installed on ARM architecture
+  - visual-studio-code
+  - vlc
+
+mas_installed_apps:
+  - { id: 1470584107, name: "Dato" }  # MacOS Datetime menu system tray
+  - { id: 1607635845, name: "Velja" } # Browser picker. Open links in a specific browser or a matching native app. Easily switch between browsers.
+  # - { id: 1611378436, name: "Pure Paste" } #  Paste as plain text by default. In Preview mode on Mac App Store and is not supported by mas command line
+
+# Set to 'true' to configure Sublime Text.
+configure_sublime: true
+sublime_base_path: '~/Library/Application Support/Sublime Text'
+sublime_config_path: "Packages/User"
+sublime_package_control:
+  - "DocBlockr"
+  - "Dockerfile Syntax Highlighting"
+  - "GitHub Flavored Markdown Preview"
+  - "Package Control"
+  - "Pretty JSON"
+  - "SublimeLinter"
+  - "SublimeLinter-contrib-yamllint"
+  - "TrailingSpaces"
+  - "WordCount"
+
+# Glob pattern to ansible task files to run after all other tasks are finished.
+post_provision_tasks: []
