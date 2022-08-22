@@ -9,3 +9,9 @@
 - name: Run .osx customisation script.
   command: "~/.osx"
   changed_when: false
+
+- name: Update Key Binding settings for Home/End
+  copy:
+    src: "files/DefaultKeyBinding.dict"
+    dest: "~/Library/KeyBindings/"
+    mode: '0644'
