@@ -36,8 +36,6 @@ homebrew_installed_packages:
   - fish
   - fzf
   - git
-  - go
-  - ghostscript
   - httpie
   - micro
   - ncdu
@@ -46,6 +44,7 @@ homebrew_installed_packages:
   - tree
   - watchman
   - wget
+  - zoxide
 
 homebrew_cask_appdir: /Applications
 homebrew_cask_apps:
