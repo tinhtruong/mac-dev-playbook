@@ -56,6 +56,7 @@ homebrew_cask_apps:
   - drawio
   - firefox
   - font-droid-sans-mono-nerd-font
+  - font-fira-code-nerd-font
   - font-jetbrains-mono-nerd-font
   - font-inconsolata-nerd-font
   - font-ubuntu-mono-nerd-font
