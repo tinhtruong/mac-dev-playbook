@@ -77,9 +77,9 @@ homebrew_cask_apps:
   - sublime-text
   - the-unarchiver
   - thunderbird
-#  - virtualbox cannot be installed on ARM architecture
-  - visual-studio-code
+#  - virtualbox cannot be installed on ARM architecture  
   - vlc
+  - vscodium
 
 mas_installed_apps:
   - { id: 1470584107, name: "Dato" }  # MacOS Datetime menu system tray
