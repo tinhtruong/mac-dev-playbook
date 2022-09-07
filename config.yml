@@ -31,6 +31,7 @@ homebrew_taps:
 homebrew_installed_packages:
   - bat
   - cheat
+  - difftastic
   - direnv
   - exa
   - fd
