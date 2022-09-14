@@ -38,6 +38,7 @@ homebrew_installed_packages:
   - fish
   - fzf
   - git
+  - gpg
   - httpie
   - micro
   - ncdu
