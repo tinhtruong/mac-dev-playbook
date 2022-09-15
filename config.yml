@@ -67,6 +67,7 @@ homebrew_cask_apps:
   - font-victor-mono-nerd-font
   - google-chrome
   - google-cloud-sdk
+  - gpg-suite
   - insomnia
   - iterm2
   - jetbrains-toolbox
