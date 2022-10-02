@@ -75,6 +75,7 @@ homebrew_cask_apps:
   - keepassxc
   - kitty
   - libreoffice
+  - netnewswire
   - pdfsam-basic
   - signal
   - slack
