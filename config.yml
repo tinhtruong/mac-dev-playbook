@@ -89,6 +89,7 @@ homebrew_cask_apps:
 mas_installed_apps:
   - { id: 1470584107, name: "Dato" }  # MacOS Datetime menu system tray
   - { id: 1607635845, name: "Velja" } # Browser picker. Open links in a specific browser or a matching native app. Easily switch between browsers.
+  - { id: 1464122853, name: "NextDNS" } # NextDNS macOS client
   # - { id: 1611378436, name: "Pure Paste" } #  Paste as plain text by default. In Preview mode on Mac App Store and is not supported by mas command line
 
 # Set to 'true' to configure Sublime Text.
