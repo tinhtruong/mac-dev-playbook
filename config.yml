@@ -46,6 +46,7 @@ homebrew_installed_packages:
   - httpie
   - micro
   - ncdu
+  - ripgrep
   - sops
   - stow
   - starship
