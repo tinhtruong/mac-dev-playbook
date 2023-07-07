@@ -8,7 +8,7 @@ dockitems_remove: []
 # - TV
 # - Podcasts
 # - 'App Store'
-dockitems_persist: 
+dockitems_persist:
  - name: "Thunderbird"
    path: "/Applications/Thunderbird.app/"
    pos: 3
@@ -31,8 +31,10 @@ homebrew_taps:
 homebrew_installed_packages:
   - ansible
   - ansible-lint
+  - bash
   - bat
   - cheat
+  - coreutils
   - difftastic
   - direnv
   - exa
@@ -85,7 +87,7 @@ homebrew_cask_apps:
   - sublime-text
   - the-unarchiver
   - thunderbird
-#  - virtualbox cannot be installed on ARM architecture  
+#  - virtualbox cannot be installed on ARM architecture
   - vlc
   - vscodium
 
